@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-10T14:29:40.787Z</updated>
+  <updated>2019-12-10T15:01:47.228Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/fightingBoy.html"/>
     <id>http://yoursite.com/fightingBoy.html</id>
     <published>2019-12-10T09:12:22.000Z</published>
-    <updated>2019-12-10T14:29:40.787Z</updated>
+    <updated>2019-12-10T15:01:47.228Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,8 @@
       
         
         
-          &lt;iframe src=&quot;//player.bilibili.com/player.html?aid=1260805&amp;cid=1919378&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot;
+          &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css&quot;&gt;
+&lt;script
         
       
     
