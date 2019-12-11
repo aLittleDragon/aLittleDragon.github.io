@@ -15,8 +15,13 @@
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;20191211-1.jpg">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;20191211-2.jpg">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;20191211-3.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;20191211-4.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;20191211-5.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;20191211-6.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;20191211-7.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;20191211-9.jpg">
 <meta property="article:published_time" content="2019-12-11T09:05:44.000Z">
-<meta property="article:modified_time" content="2019-12-11T10:07:17.709Z">
+<meta property="article:modified_time" content="2019-12-11T13:11:55.551Z">
 <meta property="article:author" content="lwl">
 <meta property="article:tag" content="前端技术">
 <meta property="article:tag" content="个人博客搭建">
@@ -283,7 +288,7 @@
 <li>package.json：项目所需模块项目的配置信息</li>
 </ul>
 </li>
-<li>做好这些前置工作之后接下来的就是各种配配配置了<br>
+<li>做好这些前置工作之后接下来的就是各种配置了<br>
 </li>
 </ul>
 <hr>
@@ -292,9 +297,31 @@
 </li>
 <li><strong>搭桥到github</strong><ul>
 <li>没账号的创建账号，有账号的看下面<ul>
-<li>创建一个repo，名称为yourname.github.io, 其中yourname是你的github名称，按照这个规则创建才有用哦，如下<br><img src="images/20191211-3.jpg" alt="20191211-3"><h4 id="步骤1"><a href="#步骤1" class="headerlink" title="步骤1:"></a>步骤1:</h4><code>npm install git -g</code></li>
+<li>创建一个repo，名称为yourname.github.io, 其中yourname是你的github名称，按照这个规则创建才有用哦，如下<br><img src="images/20191211-3.jpg" alt="20191211-3"><br><img src="images/20191211-4.jpg" alt="20191211-4"></li>
+<li>回到gitbash中，配置github账户信息（YourName和YourEail都替换成你自己的）：<br><img src="images/20191211-5.jpg" alt="20191211-5"><h2 id=""><a href="#" class="headerlink" title=""></a><img src="images/20191211-6.jpg" alt="20191211-6"></h2></li>
 </ul>
 </li>
+</ul>
+</li>
+<li><strong>修改配置文件</strong> <ul>
+<li>用编辑器打开你的blog项目，修改_config.yml文件的一些配置(冒号之后都是有一个空格的)：<br><img src="images/20191211-7.jpg" alt="20191211-7"><br>这两个地方分别改成自己的<span style="color:red;font-weight:bold;">github的用户名</span>和<span style="color:red;font-weight:bold;">Repository仓库的名字</span></li>
+</ul>
+<hr>
+</li>
+<li><strong>清理public文件夹、清空db.json文件,生成静态文件,启动本地服务器</strong><ul>
+<li><code>hexo clean</code></li>
+<li><code>hexo g</code> (hexo generate的缩写)</li>
+<li><code>hexo s</code> (hexo server的缩写)</li>
+<li>打开浏览器输入：<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a><br>  <span style="color:red;font-weight:bold;">如果能显示网页即服务器启动成功</span></li>
+</ul>
+<hr>
+</li>
+<li><strong>上传博客到github上</strong><ul>
+<li>先安装一波：<code>npm install hexo-deployer-git --save</code>（这样才能将你写好的文章部署到github服务器上并让别人浏览到）</li>
+<li>执行命令(建议每次都按照如下步骤部署)：<br>  <code>hexo clean</code><br>  <code>hexo g</code><br>  <code>hexo d</code></li>
+<li>注意deploy的过程中要输入你的<span style="color:red;"><strong>username</strong></span>及<strong><span style="color:red;">password</strong></span> 如下：<br><img src="images/20191211-9.jpg" alt="20191211-9"></li>
+<li>在浏览器中输入<span><a href="https://yourgithubname.github.io" target="_blank" rel="noopener">https://yourgithubname.github.io</a></span>就可以看到你的个人博客啦，是不是很兴奋！</li>
+<li>感觉gitbash中东西太多的时候输入<strong><span style="color:red;">clear</span></strong>命令清空</li>
 </ul>
 </li>
 </ol>
