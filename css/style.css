@@ -1717,6 +1717,7 @@ pre .javascript .function {
 #page-nav .extend:hover {
   color: #5e5e5e;
 }
+#page-nav overlay .extend,
 #page-nav:hover .extend {
   opacity: 1;
 }

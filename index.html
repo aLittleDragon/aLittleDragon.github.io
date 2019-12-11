@@ -125,7 +125,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/123/" style="font-size: 10px;">123</a> <a href="/tags/456/" style="font-size: 10px;">456</a> <a href="/tags/789/" style="font-size: 10px;">789</a> <a href="/tags/%E5%8A%B1%E5%BF%97/" style="font-size: 10px;">励志</a> <a href="/tags/%E5%A5%8B%E6%96%97/" style="font-size: 10px;">奋斗</a> <a href="/tags/%E6%8B%BC%E6%90%8F/" style="font-size: 10px;">拼搏</a>
+						<a href="/tags/123/" style="font-size: 10px;">123</a> <a href="/tags/456/" style="font-size: 10px;">456</a> <a href="/tags/789/" style="font-size: 10px;">789</a> <a href="/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" style="font-size: 10px;">个人博客搭建</a> <a href="/tags/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/" style="font-size: 10px;">前端技术</a> <a href="/tags/%E5%8A%B1%E5%BF%97/" style="font-size: 10px;">励志</a> <a href="/tags/%E5%A5%8B%E6%96%97/" style="font-size: 10px;">奋斗</a> <a href="/tags/%E6%8B%BC%E6%90%8F/" style="font-size: 10px;">拼搏</a>
 					</div>
 				</section>
 				
@@ -202,6 +202,122 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-Hexo个人博客搭建教学" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E5%AD%A6.html" class="article-date">
+  	<time datetime="2019-12-11T09:05:44.000Z" itemprop="datePublished">2019-12-11</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E5%AD%A6.html" target="_blank">
+      Hexo个人博客搭建教学
+      </a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">	
+      
+	  
+		
+		
+        <h2 id="hexo个人博客搭建"><a href="#hexo个人博客搭建" class="headerlink" title="hexo个人博客搭建"></a><strong>hexo个人博客搭建</strong></h2><h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤:"></a><strong>步骤:</strong></h3><ol>
+<li><strong>安装 Git Bash</strong><br> 我一直不太喜欢在cmd中操作各种命令，所以挑了这个比较好使的Git Bash, 我的是windows环境，所以下载windows版本并安装就可以了。<ul>
+<li><a href="mySource/gitBash/git.win.rar">下载地址</a><br>
+</li>
+</ul>
+<hr>
+</li>
+<li><strong>安装NodeJs</strong><br> Hexo是基于nodeJS环境的静态博客，里面的npm工具很有用啊，所以还是老老实实把这玩意儿装了吧<ul>
+<li><a href="https://nodejs.org/en/" target="_blank" rel="noopener">下载地址</a> (说明：LTS为长期支持版，Current为当前最新版)<br>
+</li>
+</ul>
+<hr>
+</li>
+<li><strong>安装hexo</strong><br> 看到这么多安装，千万不要紧张，小哥哥小姐姐们一定要稳住，别怕，因为后面的东西都是在gitbash中用npm工具安装就好了。<ul>
+<li>先创建一个文件夹（用来存放所有blog的东西），然后cd到该文件夹下。</li>
+<li>安装hexo命令：npm i -g hexo</li>
+<li>安装完成后，查看版本：<ul>
+<li>鼠标右键点击 Git Bash Here 或者 WIN + R 键入 cmd 回车<ul>
+<li>输入 hexo v 回车<br><img src="images/20191211-1.jpg" alt="20191211-1"></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>初始化命令 hexo init,初始化完成之后打开所在的文件夹可以看到以下文件：<br>  <img src="images/20191211-2.jpg" alt="20191211-2"><ul>
+<li>解释一下<ul>
+<li>node_modules：是依赖包</li>
+<li>public：存放的是生成的页面</li>
+<li>scaffolds：命令生成文章等的模板</li>
+<li>source：用命令创建的各种文章</li>
+<li>themes：主题</li>
+<li>_config.yml：整个博客的配置</li>
+<li>db.json：source解析所得到的</li>
+<li>package.json：项目所需模块项目的配置信息</li>
+</ul>
+</li>
+<li>做好这些前置工作之后接下来的就是各种配配配置了<br>
+</li>
+</ul>
+<hr>
+</li>
+</ul>
+</li>
+<li><strong>搭桥到github</strong><ul>
+<li>没账号的创建账号，有账号的看下面<ul>
+<li>创建一个repo，名称为yourname.github.io, 其中yourname是你的github名称，按照这个规则创建才有用哦，如下<br><img src="images/20191211-3.jpg" alt="20191211-3"><h4 id="步骤1"><a href="#步骤1" class="headerlink" title="步骤1:"></a>步骤1:</h4><code>npm install git -g</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" rel="tag">个人博客搭建</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/" rel="tag">前端技术</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/IT/">IT</a><a class="article-category-link" href="/categories/IT/web%E5%89%8D%E7%AB%AF/">web前端</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+
+
+  
     <article id="post-fightingBoy" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -241,7 +357,7 @@
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-<iframe src="//player.bilibili.com/player.html?aid=1260805&cid=1919378&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="400px"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=1260805&cid=1919378&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="700px" height="400px"> </iframe>
 
 <p>生命中，没有一种状态，比不懈的奋斗，更能让我们活的理直气壮。早安! ☺</p>
 <p><img src="images/20191210-1.jpg" alt=""><br>把每—次的失败都归结为一次尝试，不去自卑;把每一次的成功都想象成一种幸运，不去自傲。就这样，微笑着弹奏从容的弦乐，去面对挫折，去接受幸福，去品味孤独，去战胜忧伤。</p>
