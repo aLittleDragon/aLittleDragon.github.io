@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>一条小龙龙</title>
-  <icon>http://yoursite.com/icon.png</icon>
+  
   <subtitle>aLittleDragon</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-11T04:12:16.898Z</updated>
+  <updated>2019-12-11T06:02:50.289Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,16 @@
     <link href="http://yoursite.com/fightingBoy.html"/>
     <id>http://yoursite.com/fightingBoy.html</id>
     <published>2019-12-10T09:12:22.000Z</published>
-    <updated>2019-12-11T04:12:16.898Z</updated>
+    <updated>2019-12-11T06:02:50.289Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script><!-- or --><link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css"><script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=1260805&cid=1919378&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="400px"> </iframe><p>生命中，没有一种状态，比不懈的奋斗，更能让我们活的理直气壮。早安! ☺</p><p><img src="images/20191210-1.jpg" alt=""><br>把每—次的失败都归结为一次尝试，不去自卑;把每一次的成功都想象成一种幸运，不去自傲。就这样，微笑着弹奏从容的弦乐，去面对挫折，去接受幸福，去品味孤独，去战胜忧伤。</p><p><img src="images/20191210-2.jpg" alt=""></p>]]></content>
     
     <summary type="html">
     
       
       
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css&quot;&gt;
-&lt;script
-        
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css&quot;&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/gitalk@1/dist
       
     
     </summary>
@@ -57,15 +56,14 @@
     <published>2019-12-10T08:02:36.000Z</published>
     <updated>2019-12-10T08:16:45.000Z</updated>
     
+    <content type="html"><![CDATA[<pre><code>今天天气好晴朗，处处好风光，        好风光</code></pre><p><img src="/images/cat.jpg" alt="喵星人~~"><br><img src="/images/a.jpg" alt="风景 1"><br><img src="/images/b.jpg" alt="风景 2"><br><img src="/images/cat.jpg" width="700px!important"><br><img src="http://pic21.nipic.com/20120514/9848957_194316511000_2.jpg"></p>]]></content>
+    
     <summary type="html">
     
       
       
-        
-        
-          &lt;pre&gt;&lt;code&gt;今天天气好晴朗，处处好风光，
-        好风光&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&quot;/images/cat.jpg&quot; alt=&quot;喵星人~~&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/a.jpg&quot; alt=&quot;风景
-        
+        &lt;pre&gt;&lt;code&gt;今天天气好晴朗，处处好风光，
+        好风光&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&quot;/images/cat.jpg&quot; alt=&quot;喵星人~~&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/a.jpg&quot; alt=&quot;风景 1&quot;&gt;&lt;br&gt;&lt;img
       
     
     </summary>
@@ -151,18 +149,17 @@
     <published>2019-12-09T04:59:08.000Z</published>
     <updated>2019-12-09T05:06:53.740Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>   内容</p><hr><p>###我好开心呀</p><p>努力的人，运气不会太差</p><h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>   内容</p><hr><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a href="http://www.codesheep.cn" target="_blank" rel="noopener">www.codesheep.cn</a></p>]]></content>
+    
     <summary type="html">
     
       
       
-        
-        
-          &lt;h2 id=&quot;第一章&quot;&gt;&lt;a href=&quot;#第一章&quot; class=&quot;headerlink&quot; title=&quot;第一章&quot;&gt;&lt;/a&gt;第一章&lt;/h2&gt;&lt;p&gt;   内容&lt;/p&gt;
+        &lt;h2 id=&quot;第一章&quot;&gt;&lt;a href=&quot;#第一章&quot; class=&quot;headerlink&quot; title=&quot;第一章&quot;&gt;&lt;/a&gt;第一章&lt;/h2&gt;&lt;p&gt;   内容&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;###我好开心呀&lt;/p&gt;
 &lt;p&gt;努力的人，运气不会太差&lt;/p&gt;
-&lt;h2 id=&quot;第二章&quot;&gt;&lt;a
-        
+&lt;h2 id=&quot;第二章&quot;&gt;&lt;a 
       
     
     </summary>
